@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend
+node_modules/
+dist/
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Local data and models
+*.sqlite3
+*.db
+*.eim
+
+# macOS
+.DS_Store
